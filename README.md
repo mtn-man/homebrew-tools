@@ -3,5 +3,8 @@
 Homebrew tap for my CLI tools.
 
 ## Usage
-brew tap Mtn-Man/tools
-brew install timer
+
+```bash
+	brew tap mtn-man/tools
+	brew install timer
+```
