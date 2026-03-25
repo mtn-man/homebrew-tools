@@ -1,30 +1,30 @@
 class After < Formula
   desc "Fast CLI countdown timer with live terminal feedback and optional alarms"
-  homepage "https://github.com/Mtn-Man/after"
+  homepage "https://github.com/mtn-man/after"
   license "MIT"
-  version "1.5.0"
+  version "1.6.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.5.0/after_v1.5.0_darwin_amd64.tar.gz"
-      sha256 "629ebdb9a2a0016c418f4d483f819a1fe9fbb706e438a683880c3e3402f800e4"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.6.0/after_v1.6.0_darwin_amd64.tar.gz"
+      sha256 "05f0e2ea18bc372b1d04215b34331542258b19ff56baa920f4be4b7a7fe99291"
     end
 
     on_arm do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.5.0/after_v1.5.0_darwin_arm64.tar.gz"
-      sha256 "85a514af04dda330a871931136d07d5ea5f35f609e3c8bf54c84d93d8cef8dc4"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.6.0/after_v1.6.0_darwin_arm64.tar.gz"
+      sha256 "dc729387bfcdc6301c3111943fc1fb3a7cde486a8d6c24a5e92931675c59e9aa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.5.0/after_v1.5.0_linux_amd64.tar.gz"
-      sha256 "85abb910700c104f0c92f9550b11b55ad51e0ee72f8f7a2c0f66149e93d9f88b"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.6.0/after_v1.6.0_linux_amd64.tar.gz"
+      sha256 "f79cdec378c1ec46cfa50ffe76b4b990a41f53390e92077df51eb65c979fb556"
     end
 
     on_arm do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.5.0/after_v1.5.0_linux_arm64.tar.gz"
-      sha256 "ddc89cc68df72103c3925422dfdc271332470fce43b89103c7f91d634ac8a381"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.6.0/after_v1.6.0_linux_arm64.tar.gz"
+      sha256 "b721c75209b0edce299b86891fc2d0763ad01f0ed35967e972f4cf72e5380cb5"
     end
   end
 
@@ -46,6 +46,6 @@ class After < Formula
   end
 
   test do
-    assert_match "after v1.5.0", shell_output("#{bin}/after --version")
+    assert_match "after v1.6.0", shell_output("#{bin}/after --version")
   end
 end
